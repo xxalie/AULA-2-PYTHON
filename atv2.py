@@ -1,0 +1,6 @@
+futebol = ('Flamengo', 'Palmeiras', 'Cruzeiro')
+excluir = input('Qual time excluir ? ')
+futebol = list(futebol)
+futebol.remove(excluir)
+futebol = tuple(futebol)
+print(futebol)
